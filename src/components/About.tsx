@@ -13,13 +13,13 @@ export function About() {
             <span className="">I'm Arun, a UX Designer with 1.5 years of</span>{" "}
             experience turning complex enterprise systems into interfaces that
             actually make sense to the people using them. My background in
-            Computer Applications gives me a rare edge — I think in systems,
+            Computer Applications gives me a rare edge - I think in systems,
             but I design for humans. Whether it's untangling a legacy SaaS
             workflow or designing an AI-powered analytics dashboard, I lead
             with research, move fast with prototypes, and stay close to the
             data until the experience feels right. Currently at Bharat Clouds, I
             work on B2B product design where the problems are messy and
-            the stakes are real — and that's exactly where I like to be.
+            the stakes are real - and that's exactly where I like to be.
           </p>
         </Reveal>
         <Reveal delay={200} className="flex justify-center md:justify-end">

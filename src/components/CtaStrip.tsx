@@ -7,7 +7,7 @@ export function CtaStrip() {
         <p className="text-sm md:text-base">
           Have a thought in mind?{" "}
           <a href="#contact" className="underline underline-offset-4 hover:text-foreground text-muted-foreground">
-            Let's talk.
+            Let's discuss.
           </a>
         </p>
         <a
