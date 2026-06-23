@@ -25,7 +25,7 @@ export function Nav() {
               </a>
             ))}
             <a
-              href="./src/views/Arun_MDR_UX_Resume.pdf"
+              href="https://drive.google.com/file/d/1DMPMwi2vi70-dclXjQpvb4G-eRIJwc0E/view?usp=sharing"
               className="ml-1 rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
               Download Resume
@@ -56,7 +56,7 @@ export function Nav() {
                 </a>
               ))}
               <a
-                href="./src/views/Arun_MDR_UX_Resume.pdf"
+                href="https://drive.google.com/file/d/1DMPMwi2vi70-dclXjQpvb4G-eRIJwc0E/view?usp=sharing"
                 onClick={() => setOpen(false)}
                 className="mt-2 rounded-full bg-primary px-4 py-2 text-center text-sm font-medium text-primary-foreground"
               >

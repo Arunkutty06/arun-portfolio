@@ -6,9 +6,9 @@ export function CtaStrip() {
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-4 px-6 py-8 sm:flex-row sm:items-center">
         <p className="text-sm md:text-base">
           Have a thought in mind?{" "}
-          <a href="#contact" className="underline underline-offset-4 hover:text-foreground text-muted-foreground">
+          {/* <a href="#contact" className="underline underline-offset-4 hover:text-foreground text-muted-foreground">
             Let's discuss.
-          </a>
+          </a> */}
         </p>
         <a
           href="#contact"
