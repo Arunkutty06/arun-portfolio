@@ -72,12 +72,14 @@ export function OrbitLogos() {
         {/* Outer ring */}
         <Ring logos={ringOuter} radiusPct={65} tile={65} />
         {/* Inner ring (subset, smaller) */}
-        <Ring
-          logos={[ringOuter[2], ringOuter[5], ringOuter[8], ringOuter[11], ringOuter[14], ringOuter[0]]}
-          radiusPct={34}
-          tile={50}
-          reverse
-        />
+        <div className="hidden md:block">
+          <Ring
+            logos={[ringOuter[2], ringOuter[5], ringOuter[8], ringOuter[11], ringOuter[14], ringOuter[0]]}
+            radiusPct={30}
+            tile={44}
+            reverse
+          />
+        </div>
       </div>
     </div>
   );
