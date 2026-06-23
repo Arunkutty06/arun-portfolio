@@ -13,7 +13,7 @@ export function Footer() {
         <Reveal delay={100}>
           <a
             href="mailto:arunrajaram6@gmail.com"
-            className=" flex justify-center mt-6 block break-all font-display text-[12vw] leading-[1.05] underline decoration-[#7c7cff] decoration-[3px] underline-offset-[0.25em] sm:text-[10vw] md:text-[6vw]"
+            className="flex justify-center mt-6 break-all font-display text-base leading-[1.05] underline decoration-[#7c7cff] decoration-[3px] underline-offset-[0.25em] sm:text-[10vw] md:text-[6vw]"
           >
             arunrajaram6@gmail.com
           </a>

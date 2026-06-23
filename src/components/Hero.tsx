@@ -4,13 +4,15 @@ import { OrbitLogos } from "./OrbitLogos";
 export function Hero() {
   return (
     <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden px-4 pt-28">
-      {/* Subtle radial backdrop */}
+      {/* Subtle grid and radial backdrop */}
       <div
         aria-hidden
-        className="absolute inset-0 opacity-60"
+        className="absolute inset-0 pointer-events-none"
         style={{
-          background:
-            "radial-gradient(ellipse at center, rgba(255,255,255,0.05), transparent 60%)",
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.10) 3px, transparent 3px), linear-gradient(90deg, rgba(255,255,255,0.10) 3px, transparent 3px), radial-gradient(ellipse at center, rgba(255,255,255,0.10), transparent 60%)",
+          backgroundSize: "120px 120px, 120px 120px, cover",
+          opacity: 0.35,
         }}
       />
       <OrbitLogos />
